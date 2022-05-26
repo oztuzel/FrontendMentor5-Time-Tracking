@@ -1,0 +1,13 @@
+.time {
+  position: relative;
+  left:50px;
+}
+
+.p {
+  padding-top: 10px;
+  color:hsl(235, 45%, 61%);  
+}
+
+.p:hover {
+  color:white;
+}

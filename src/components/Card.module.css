@@ -1,0 +1,79 @@
+.card {
+  
+  position:relative;
+  transform: translate(530px,200px);
+  border-radius: 20px;
+  flex-basis: 25%;
+  padding-left: 8px;
+  padding-right: 8px;
+  
+}
+
+.imageDiv {
+  height: 50px;
+  border-radius: 20px 20px 0px 0px;
+  overflow: hidden;
+  
+}
+
+.imageDiv.Work {
+  background-color:hsl(15, 100%, 70%) ;
+}
+
+.imageDiv.Play {
+  background-color: hsl(195, 74%, 62%);
+}
+
+.Study {
+  background-color: hsl(348, 100%, 68%);
+}
+
+.Exercise {
+  background-color: hsl(145, 58%, 55%);
+}
+
+.Social {
+  background-color: hsl(264, 64%, 52%);
+}
+
+.SelfCare {
+  background-color: hsl(43, 84%, 65%);
+}
+
+.img {
+  position: relative;
+  width:70px;
+  top:-10px;
+  left: 205px;
+}
+
+.down {
+  height: 210px;
+  background-color: hsl(235, 46%, 20%);
+  position: relative;
+  top:-25px;
+  border-radius: 20px;
+  color: hsl(236, 100%, 87%);
+}
+
+.title {
+  position: relative;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+
+.ellipsis {
+  padding-right: 30px;
+  float: right;
+}
+
+.h1 {
+  position: relative;
+  left:0px;
+  padding-left: 40px;
+  height: 20px;
+}
+
+.p {
+  padding-left: 40px;
+}
