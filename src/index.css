@@ -38,5 +38,14 @@ code {
   margin-right: -8px;
   width: 1200px;
   
-  
+}
+
+@media (max-width:600px) {
+  body{
+    width: 600px;
+  }
+
+  .card {
+    width: 600px;
+  }
 }

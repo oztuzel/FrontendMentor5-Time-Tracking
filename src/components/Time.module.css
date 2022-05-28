@@ -8,6 +8,28 @@
   color:hsl(235, 45%, 61%);  
 }
 
+.p:hover{
+  color:white;
+  cursor:pointer;
+}
+
 .p:hover {
   color:white;
+}
+
+@media (max-width:600px) {
+  .time {
+    display: flex;
+    
+  }
+  
+  .p{
+    padding-left: 50px;
+    font-size: 30px;
+    padding-top: 20px;
+    margin-bottom: 40px;
+  }
+
+
+
 }

@@ -1,5 +1,4 @@
 .card {
-  
   position:relative;
   transform: translate(530px,200px);
   border-radius: 20px;
@@ -8,6 +7,7 @@
   padding-right: 8px;
   
 }
+
 
 .imageDiv {
   height: 50px;
@@ -55,6 +55,9 @@
   border-radius: 20px;
   color: hsl(236, 100%, 87%);
 }
+.down:hover {
+  background-color: hsl(235, 45%, 61%);
+}
 
 .title {
   position: relative;
@@ -76,4 +79,51 @@
 
 .p {
   padding-left: 40px;
+}
+
+@media (max-width:600px) {
+  .card {
+    position: relative;
+    transform: translate(30px,360px);
+    flex-basis: 100%;
+    max-width:550px;
+    padding-right: 50px;
+  }
+
+  .imageDiv {
+    height:65px
+  }
+
+  .img{
+    height: 120px;
+    width: 100px;
+    left:400px;
+    top:-20px;
+  }
+
+  .down{
+    top:-40px
+  }
+
+  .title {
+    font-size:30px;
+    padding-top: 30px;
+  }
+  
+  .ellipsis{
+    width:40px;
+    padding-top: 10px;
+  }
+
+  .h1{
+    top:-20px;
+    font-size: 60px;
+  }
+
+  .p {
+    position: relative;
+    left:250px;
+    top: -50px;
+    font-size: 25px;
+  }
 }
